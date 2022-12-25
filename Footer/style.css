@@ -1,0 +1,73 @@
+
+/*First Page AC.DC Motors Design*/
+h1{
+/*    background-color: lightblue;
+    font-family:sans-serif;*/
+ 
+/* font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+*/  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgb(45, 54, 65, 0.75);
+    font-family:sans-serif;
+    color:white;
+        
+        
+}
+.card-img-top{
+    width:30%;
+    height:40%;
+}
+.card-img-middle{
+  
+    width:250px;
+    height:40%;
+}
+
+.cards-img-bottom{
+    width:200px;
+    height:40%;
+}
+
+.card-text{
+    font-family: sans-serif;
+}
+
+
+
+/*Code from bottom to top start here*/
+/*body {
+  display: grid;
+  grid-template-columns: auto 0px; 
+}*/
+
+.top {
+  --offset: 50px; 
+
+  position: sticky;
+  bottom: 20px;      
+  margin-left: 85%;
+  margin-right: 10px; 
+  place-self: end;
+  margin-top: 100%;
+/*margin-top: calc(100vh + var(--offset));*/
+
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+/*
+p {
+  font-size: 25px;
+}*/
+
+/*Code from bottom to top ends here*/
+
+
